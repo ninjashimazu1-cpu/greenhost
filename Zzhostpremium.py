@@ -29,10 +29,10 @@ from flask import Flask
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # --- Configuration ---
-TOKEN = '8777730172:AAFB3wkyTxPlFVqUibxgVn1JMZ1obsHK-tE'  # <-- Yahan apna Telegram bot token paste karo
-OWNER_ID = int(os.environ.get('OWNER_ID', '8693932471'))
+TOKEN = '8734864841:AAFKxRcb8ryNa9WZ-kT7CLByZHPjdprn918'  # <-- Yahan apna Telegram bot token paste karo
+OWNER_ID = int(os.environ.get('OWNER_ID', '8971784730'))
 ADMIN_ID = int(os.environ.get('ADMIN_ID', str(OWNER_ID)))
-YOUR_USERNAME = os.environ.get('OWNER_USERNAME', '@nxcodex')
+YOUR_USERNAME = os.environ.get('OWNER_USERNAME', '@XQCRD')
 if not TOKEN or TOKEN == 'PASTE_YOUR_BOT_TOKEN_HERE':
     raise RuntimeError('Bot token set karo: TOKEN = \'PASTE_YOUR_BOT_TOKEN_HERE\' ko apne token se replace karo.')
 
